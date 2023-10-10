@@ -39,13 +39,14 @@ The school-library is the librarian of OOP University, and will record what book
 ### Key Features <a name="key-features"></a>
 - **Run a program using the command line.**
 - **Use Ruby syntax for basic programming operations.**
+- **Use Ruby syntax for OOP programming.**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
 ### Prerequisites <a name="prerequisites"></a>
 
-- Use WSL.
+- Use Irb.
 - Ruby installation.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
