@@ -11,7 +11,6 @@ class Student < Person
   end
 end
 
-
 st1 = Student.new(22, 2, 'Jawad', parent_permission: true)
 puts st1.play_hooky
 
