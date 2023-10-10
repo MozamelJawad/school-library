@@ -14,10 +14,10 @@ class Person
   end
 
   private
+
   def of_age?
     age.to_i >= 18
   end
-
 end
 
 person1 = Person.new(22, 'Ali', true)

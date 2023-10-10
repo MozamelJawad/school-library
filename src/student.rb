@@ -12,7 +12,7 @@ class Student < Person
 end
 
 
-st1 = Student.new(22, 2, 'Jawad',true)
+st1 = Student.new(22, 2, 'Jawad', true)
 puts st1.play_hooky
 
 st1 = Student.new(22, 2)
