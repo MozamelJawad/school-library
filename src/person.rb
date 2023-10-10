@@ -20,7 +20,7 @@ class Person
   end
 end
 
-person1 = Person.new(22, 'Ahmad', parent_permission:true)
+person1 = Person.new(22, 'Ahmad', parent_permission: true)
 puts person1.can_use_services?
 
 person2 = Person.new(22)
