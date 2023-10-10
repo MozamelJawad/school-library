@@ -2,7 +2,7 @@ class Person
   attr_accessor :name, :age
   attr_reader :id
 
-  def initialize(age, name = 'Unknown', parent_permission = true)
+  def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..5000)
     @name = name
     @age = age
@@ -20,8 +20,8 @@ class Person
   end
 end
 
-person1 = Person.new(22, 'Ali', true)
+person1 = Person.new(22, 'Ahmad', parent_permission:true)
 puts person1.can_use_services?
 
-person1 = Person.new(22)
-puts person1.can_use_services?
+person2 = Person.new(22)
+puts person2.can_use_services?
