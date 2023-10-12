@@ -10,9 +10,3 @@ class Teacher < Person
     true
   end
 end
-
-t1 = Teacher.new(22, 'Software Engineering', 'Ahmad', parent_permission: true)
-puts t1.can_use_services?
-
-t2 = Teacher.new(22, 'Software Engineering')
-puts t2.can_use_services?
