@@ -39,4 +39,4 @@ def main
   puts 'Thank you for using this app!'
 end
 
-main()
+main

@@ -20,7 +20,9 @@ class App
   # list of people
 
   def list_people
-    puts(@people.map { |person| "[#{person.class}] Name: #{person.name.capitalize}, ID: #{person.id}, Age: #{person.age}" })
+    puts(@people.map do |person|
+           "[#{person.class}] Name: #{person.name.capitalize}, ID: #{person.id}, Age: #{person.age}"
+         end)
   end
 
   # create person
@@ -88,7 +90,7 @@ class App
     puts 'Rentals:'
     puts(@rentals.filter_map do |rental|
            if rental.person.id == person_id
-             "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author}"
+             "Date: #{rental.date}, Book \"#{rental.book.title}\" by #{rental.book.author.capitalize}"
            end
          end)
   end
